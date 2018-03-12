@@ -1,0 +1,11 @@
+defmodule TextClient.Prompter do
+
+  def accept_move(game) do
+    input = IO.gets("Your guess: ")
+    |> check_input(game)
+    
+  end
+
+  defp check_input(
+  
+end
